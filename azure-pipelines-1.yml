@@ -23,6 +23,7 @@ steps:
     tasks: 'build'
 
 - task: Gradle@2
+  displayName: Build Docker Image
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
