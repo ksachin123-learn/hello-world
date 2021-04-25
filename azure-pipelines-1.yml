@@ -38,5 +38,5 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'firstprojectpoccontainerregistry'
-    repository: 'hello-world'
+    repository: 'latest'
     command: 'push'
