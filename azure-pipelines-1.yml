@@ -35,3 +35,8 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'bootBuildImage'
 
+- task: Docker@2
+  inputs:
+    containerRegistry: 'firstprojectpoccontainerregistry'
+    repository: 'hello-world'
+    command: 'push'
