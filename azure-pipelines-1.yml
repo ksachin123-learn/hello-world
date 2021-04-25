@@ -36,6 +36,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'firstprojectpoccontainerregistry'
-    repository: 'azurepoc/first-project'
+    repository: 'firstproject'
     command: 'push'
     tags: latest
