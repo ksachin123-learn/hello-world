@@ -38,3 +38,4 @@ steps:
     containerRegistry: 'firstprojectpoccontainerregistry'
     repository: 'azurepoc/first-project'
     command: 'push'
+    tags: latest
